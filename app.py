@@ -53,4 +53,5 @@ def excluir_produto(produto_id):
     else:
         return jsonify({'erro': 'Produto não encontrado'})
 
-app.run()
+if __name__ == '__main__':
+    app.run()
